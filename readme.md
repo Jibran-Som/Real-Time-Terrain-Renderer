@@ -18,10 +18,12 @@ A basic real-time terrain rendering project using OpenGL, GLFW, GLAD, and Dear I
 ## Project Structure
 
 /Assets → textures, shaders, models
+
 /src → source files (.cpp)
+
 /headers → header files (.h)
-/lib → third-party libraries (GLFW, GLAD, ImGui)
-/x64/Release → build output and optional zip of executable
+
+/screenshots → Screenshots of the active running program
 
 
 ## Dependencies
@@ -32,4 +34,4 @@ A basic real-time terrain rendering project using OpenGL, GLFW, GLAD, and Dear I
 
 ## Notes
 - All required source files for third-party libraries are included (`glad.c`, `imgui_*.cpp`), so no extra setup is needed.
-- You can optionally unzip `x64/Release/Real-Time Terrain Renderer` for easy use.
+- You can optionally unzip `x64/Release/Real-Time Terrain Renderer.zip` for easy use.

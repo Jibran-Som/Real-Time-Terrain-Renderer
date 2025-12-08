@@ -1,3 +1,5 @@
+Real-Tim.d88d38ca/
+
 # Ignore build output folders
 x64/Debug/
 x64/Release/
@@ -41,5 +43,4 @@ packages/
 !imgui*.cpp
 !glad.c
 
-# Markdown files
-!*.md
+!screenshots/
