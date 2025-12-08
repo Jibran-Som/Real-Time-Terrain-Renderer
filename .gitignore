@@ -1,0 +1,45 @@
+# Ignore build output folders
+x64/Debug/
+x64/Release/
+!x64/Release/*.zip    # But allow zipped builds in Release folder
+
+# Ignore Visual Studio user-specific files
+*.vcxproj.user
+*.suo
+*.user
+*.ipch
+
+# Ignore intermediate and binary files
+*.obj
+*.exe
+*.dll
+*.pdb
+*.lib
+*.log
+
+# Ignore Visual Studio cache and temp files
+*.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore build logs and reports
+*.tlog/
+*.lastbuildstate
+
+packages/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+
+!src/**/*.cpp
+!src/**/*.h
+!headers/**/*.h
+
+# Include third party source files you build with:
+!imgui*.cpp
+!glad.c
+
+# Markdown files
+!*.md
