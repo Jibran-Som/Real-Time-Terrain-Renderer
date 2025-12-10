@@ -34,4 +34,4 @@ A basic real-time terrain rendering project using OpenGL, GLFW, GLAD, and Dear I
 
 ## Notes
 - All required source files for third-party libraries are included (`glad.c`, `imgui_*.cpp`), so no extra setup is needed.
-- You can optionally unzip `x64/Release/Real-Time Terrain Renderer.zip` for easy use.
+- You can optionally unzip `Real-Time Terrain Renderer.zip` for easy use. However after unzipping add the Assets folder into the folder the `.exe` is in to run the program properly.

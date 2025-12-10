@@ -134,22 +134,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Camera.cpp" />
-    <ClCompile Include="src\GameSkybox.cpp" />
-    <ClCompile Include="src\imgui.cpp" />
-    <ClCompile Include="src\imgui_demo.cpp" />
-    <ClCompile Include="src\imgui_draw.cpp" />
-    <ClCompile Include="src\imgui_impl_glfw.cpp" />
-    <ClCompile Include="src\imgui_impl_opengl3.cpp" />
-    <ClCompile Include="src\imgui_tables.cpp" />
-    <ClCompile Include="src\imgui_widgets.cpp" />
+    <ClCompile Include="src\Perspective\Camera.cpp" />
+    <ClCompile Include="src\Cubemap\GameSkybox.cpp" />
+    <ClCompile Include="src\libs\imgui.cpp" />
+    <ClCompile Include="src\libs\imgui_demo.cpp" />
+    <ClCompile Include="src\libs\imgui_draw.cpp" />
+    <ClCompile Include="src\libs\imgui_impl_glfw.cpp" />
+    <ClCompile Include="src\libs\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="src\libs\imgui_tables.cpp" />
+    <ClCompile Include="src\libs\imgui_widgets.cpp" />
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\Shader.cpp" />
-    <ClCompile Include="src\stb_image.cpp" />
-    <ClCompile Include="src\TerrainChunk.cpp" />
-    <ClCompile Include="src\TerrainManager.cpp" />
-    <ClCompile Include="src\Texture.cpp" />
-    <ClCompile Include="src\TextureManager.cpp" />
+    <ClCompile Include="src\shaders\Shader.cpp" />
+    <ClCompile Include="src\libs\stb_image.cpp" />
+    <ClCompile Include="src\worldgen\TerrainChunk.cpp" />
+    <ClCompile Include="src\worldgen\TerrainManager.cpp" />
+    <ClCompile Include="src\textures\Texture.cpp" />
+    <ClCompile Include="src\textures\TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\Camera.h" />
